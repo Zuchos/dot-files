@@ -30,7 +30,8 @@ zplug "plugins/extract", from:oh-my-zsh
 zplug "plugins/docker", from:oh-my-zsh
 
 zplug "mafredri/zsh-async", from:github
-zplug "dracula/zsh", as:theme
+#zplug "dracula/zsh", as:theme
+zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 
 zplug "modules/history", from:prezto
 
