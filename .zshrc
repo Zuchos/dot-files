@@ -46,7 +46,7 @@ zplug "dbkaplun/smart-cd" # automatic ls in dirs, git status in repos
 
 export NVM_LAZY_LOAD=true
 zplug "lukechilds/zsh-nvm"
-zplug "cswl/zsh-rbenv"
+#zplug "cswl/zsh-rbenv"
 zplug "nobeans/zsh-sdkman"
 #zplug "superbrothers/zsh-kubectl-prompt"
 
@@ -94,5 +94,5 @@ bindkey '^xe' edit-command-line
 bindkey '^x^e' edit-command-line
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/kc/.sdkman"
-[[ -s "/home/kc/.sdkman/bin/sdkman-init.sh" ]] && source "/home/kc/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="/home/zuchos/.sdkman"
+[[ -s "/home/zuchos/.sdkman/bin/sdkman-init.sh" ]] && source "/home/zuchos/.sdkman/bin/sdkman-init.sh"
