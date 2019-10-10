@@ -1,9 +1,9 @@
 [user]
-	name = Krzysiek Ciesielski
-	email = kciesielski@users.noreply.github.com
+	name = Lukasz Zuchowski
+	email = lukasz.zuchowski@gmail.com
 [core]
        excludesfile = ~/.gitignore_global
-       editor = vim
+       editor = nano
        autocrlf = input
        hookspath = ~/.git-hooks
     pager = diff-so-fancy | less -FXRi
@@ -13,3 +13,4 @@
        rebase = true
 [help]
        autocorrect = 8
+
