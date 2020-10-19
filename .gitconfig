@@ -2,7 +2,7 @@
 	name = Lukasz Zuchowski
 	email = lukasz.zuchowski@gmail.com
 [core]
-       excludesfile = ~/.gitignore_global
+	excludesfile = /home/zuchos/.gitignore
        editor = nano
        autocrlf = input
        hookspath = ~/.git-hooks
